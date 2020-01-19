@@ -33,7 +33,7 @@ int mcm(const int &a, const int &b) {
 //         return 1;
 // }
 
-int pot(const float &base, const int &e) {
+float pot(const float &base, const int &e) {
     if (e > 0)
         return base * pot(base, e - 1);
     else if (e < 0)
