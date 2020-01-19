@@ -1,4 +1,6 @@
 .vscode
+*.pdb
+*.ilk
 
 # Prerequisites
 *.d
@@ -27,8 +29,3 @@
 *.la
 *.a
 *.lib
-
-# Executables
-*.exe
-*.out
-*.app
